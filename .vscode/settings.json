@@ -1,0 +1,16 @@
+{
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/__pypackages__/3.9/lib"
+  ],
+  "python.analysis.extraPaths": ["${workspaceFolder}/__pypackages__/3.9/lib"],
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "python.analysis.typeCheckingMode": "strict",
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.linting.mypyEnabled": true,
+  "python.linting.mypyCategorySeverity.error": "Error",
+  "python.pythonPath": "/bin/python3.9"
+}
